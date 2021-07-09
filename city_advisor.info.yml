@@ -1,0 +1,5 @@
+name: City Advisor Widget
+description: An extendable plugin that helps you to display information about a city.
+type: module
+package: Learning Drupal Development
+core_version_requirement: ^8 || ^9

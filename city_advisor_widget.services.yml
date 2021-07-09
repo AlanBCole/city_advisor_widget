@@ -1,0 +1,7 @@
+services:
+  plugin.manager.city_advisor_widget:
+    class: Drupal\city_advisor_widget\Plugin\CityAdvisorWidgetManager
+    parent: default_plugin_manager
+
+  city_advisor_widget.weather_forecast_service:
+    class: Drupal\city_advisor_widget\Service\WeatherForecastService
